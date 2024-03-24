@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "SecureBrowse",
+    "version": "1.0",
+  
+    "description": "Secure Browse is a Mozilla Firefox browser extension that implements secure browsing features, such as blocking non-necessary cookies, limiting the data that companies collect to track you, and hiding pesky ads.",
+  
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "js": ["securebrowse.js"]
+      }
+    ]
+}
